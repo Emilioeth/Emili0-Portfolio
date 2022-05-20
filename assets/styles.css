@@ -71,13 +71,13 @@ header nav ul li a {
 #projects {
     background-color: black;
     padding-bottom: 350px;
-    padding-top: 100px;
 }
 
 .section-structure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 80px;
 }
 
 .section-title {
@@ -206,4 +206,8 @@ footer {
 
 #reach-out-title {
     border-color: gold;
+}
+
+#about-me, #contact, #projects {
+    padding-top: 85px;
 }
