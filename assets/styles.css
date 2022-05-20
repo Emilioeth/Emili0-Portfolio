@@ -54,6 +54,19 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
+
+#hero-img {
+    width: 1200px;
+    height: 300px;
+}
+
+@media (min-width: 500px) {
+#hero-img {
+    width: 1200px;
+    height: 300px;
+}
+}
+
 #projects {
     background-color: black;
     padding-bottom: 250px;
