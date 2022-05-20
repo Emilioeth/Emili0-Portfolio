@@ -14,19 +14,25 @@ header {
     background-color: black;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
 }
 
 header h1 {
-    color: white;
+    color: black;
     align-items: center;
     font-weight: 900;
-    font-size: 33px;
+    font-size: 2.2vw;
     margin: 0;
+    border-top: solid 3px gray;
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 header nav {
@@ -49,27 +55,23 @@ header nav ul li a {
     border-top: solid 1px gray;
 }
 
-.hero {
+.hero { 
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 125px 10px 200px 10px;
 }
 
-
-#hero-img {
-    width: 1200px;
-    height: 300px;
-}
-
-@media (min-width: 500px) {
-#hero-img {
-    width: 1200px;
-    height: 300px;
-}
+#art-img {
+    width: 650px;
+    height: 350px;
 }
 
 #projects {
     background-color: black;
-    padding-bottom: 250px;
+    padding-bottom: 350px;
+    padding-top: 100px;
 }
 
 .section-structure {
@@ -138,6 +140,10 @@ header nav ul li a {
     border: solid 15px #FFD700;
 }
 
+#social-structure {
+    background-color: black;
+}
+
 #contact {
     background-color: black;
     padding: 0 0 250px 0;
@@ -171,7 +177,14 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    border-bottom: solid 5px gold;
+    border-bottom: solid 3px gold;
+}
+
+#mail-img {
+    width: 200px;
+    height: 125px;
+    margin: 80px 10px 10px 800px;
+    border-left: solid 5px gold;
 }
 
 footer h2 {
@@ -188,4 +201,9 @@ footer {
     background: white;
     width: 100%;
     padding: 40px 35px;
+    height: 100px;
+}
+
+#reach-out-title {
+    border-color: gold;
 }
