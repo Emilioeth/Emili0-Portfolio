@@ -188,6 +188,24 @@ header nav ul li a {
     border-left: solid 5px gold;
 }
 
+@media (min-width: 1300px) and (max-width: 1550px) {
+    #mail-img {
+        margin-left: 680px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    #mail-img {
+        margin-left: 500px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+    #mail-img {
+        margin-left: 420px;
+    }
+}
+
 footer h2 {
     color: black;
     font-size: 20px;
