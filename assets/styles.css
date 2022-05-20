@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     padding: 18px 15px;
-    background-color: #d8c3a5;
+    background-color: black;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -43,13 +43,20 @@ header nav ul {
 
 header nav ul li a {
     margin: 0 30px;
+    padding-top: 7px;
     font-weight: lighter;
     font-size: 1.3vw;
+    border-top: solid 1px gray;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #projects {
-    background-color: #EAE7DC;
-    padding-bottom: 100px;
+    background-color: black;
+    padding-bottom: 250px;
 }
 
 .section-structure {
@@ -61,8 +68,8 @@ header nav ul li a {
 .section-title {
     text-align: center;
     font-weight: bolder;
-    color: darksalmon;
-    border-bottom: solid #E98074 5px;
+    color: white;
+    border-bottom: solid #FFD700 5px;
     margin: 0 auto 30px auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -72,13 +79,100 @@ header nav ul li a {
 .project-img {
     width: 250px;
     height: 150px;
+    border: solid 2px #FFD700;
 }
 
 #first-project-img {
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
 
 .project-bio, .project-title {
     text-align: center;
+    color: white;
+}
+
+#bio-section-title {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    border-bottom: solid #FFD700 5px;
+    margin: 0 auto 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+#bio-image-n-text {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me {
+    padding-bottom: 100px;
+}
+
+#bio-image {
+    padding-right: 20px;
+    margin: 30px 15px 100px 15px;
+}
+
+#bio-img {
+    height: 350px;
+    width: 350px;
+    border: solid 15px #FFD700;
+}
+
+#contact {
+    background-color: black;
+    padding: 0 0 250px 0;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#twitter, #instagram {
+    display: flex;
+}
+
+#instagram-img {
+    margin: 100px 0 0 0px;
+    width: 130px;
+    height: 120px;
+}
+
+#twitter-img {
+    margin: 100px -20px 0 -20px;
+    width: 220px;
+    height: 120px;
+}
+
+#twitter-text, #instagram-text {
+    margin: 150px 0 0 0;
+    padding: 0 25px 5px 25px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-bottom: solid 5px gold;
+}
+
+footer h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    padding: 40px 35px;
 }
