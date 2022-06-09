@@ -3,7 +3,16 @@
 This webpage was made to serve as the portfolio for 
 Emili0's current and future projects.
 
+
+Link to deployed application -
+
+https://emilioeth.github.io/Emili0-Portfolio/
+
 # Languages Used
 
-Languages used for this project included,
-HTML5 and CSS
+HTML. CSS. JS.
+
+# Contributions 
+
+Made by Emili0
+
