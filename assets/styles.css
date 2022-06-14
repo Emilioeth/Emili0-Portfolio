@@ -73,6 +73,25 @@ body {
     margin-top: 8px;
 }
 
+.phone-title-contact, .phone-services-title {
+    display: none;
+    color: var(--text-white-50);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+/* 
+.phone-title-contact {
+    border-bottom: solid 5px var(--mp-blue);
+}
+
+.phone-services-title {
+    border-bottom: solid 5px var(--mp--green);
+}
+*/
+
 /* GENERAL END */ 
 
 /*  Nav Bar Section start */
@@ -290,10 +309,12 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+    /*
     .home .home-img
     {
         display: none;
     }
+    */
 }
 
 /* home end */
@@ -695,3 +716,53 @@ h3.my-profession
 }
 
 /* Contact section end */
+
+/* General Media Queries */
+
+@media (max-width:991px){
+    .phone-services-title, .phone-title-contact {
+        display: block;
+    }
+    .phone-services-title {
+        border-bottom: solid 2px var(--mp--green);
+        width: 50%;
+        margin-left: 150px;
+        margin-bottom: -300px;
+    }
+    #services {
+        margin-top: 220px;
+    }
+    #blockchain-title-mobile span {
+        display: none;
+    }
+    .phone-title-contact {
+        border-bottom: solid 2px var(--mp-blue);
+        width: 50%;
+        margin-bottom: 250px;
+        margin-left: 170px;
+    }
+    #contact {
+        margin-top: -175px;
+    }
+}
+
+@media (max-width:991px) and (min-width:700px) {
+    .container-home {
+        position: relative;
+    }
+    .home-img-pos {
+        position: absolute;
+        bottom: 335px;
+    }
+    .home-info-pos {
+        position: absolute;
+    }
+    .container-home {
+        margin-top: 50px;
+    }
+    .home-img {
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+
