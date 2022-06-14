@@ -6,7 +6,7 @@ Emili0's current and future projects.
 
 Link to deployed application -
 
-https://emilioeth.github.io/Emili0-Portfolio/
+https://emili0.com
 
 # Languages Used
 
