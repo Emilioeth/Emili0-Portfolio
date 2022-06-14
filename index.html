@@ -4,150 +4,87 @@
 
     <head>
         <meta charset="UTF-8"/>
-        <title>Portfolio Emili0</title>
+        <title>Home Emili0</title>
         <link rel="stylesheet" href="./assets/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
 
 <body>
 
-    <header>
+    <div class="wrapperr">
 
-        <h1 id="Main-title">
-            EMILI0
-        </h1>
+        <header>
 
-        <nav>   
-            <ul>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>    
-                    <a href="#about-me">About Me</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-    </header>
-    <hero class="hero">
-        <img src="./assets/Images/images.jpg" alt="" id="art-img">
-    </hero>
-    <section id="projects">
-
-        <div class="section-title">
-            <h2>PROJECTS</h2>
-        </div>
-
-    <div class="section-structure"> 
-        <div class="project-structure">
-            <div class="project-image">
-              <img src="./assets/Images/Placeholder-image-portfolio.gif" alt="Run buddys official webpage" class="project-img">
-            </div> 
-            <div>
-                <h3 class="project-title">
-                    COMING SOON...
-                </h3>
-                <p class="project-bio">
-                    COMING SOON...
-                </p>
-              </div> 
-        </div>  
-        <div class="project-structure">
-            <div class="project-image">
-               <a href="https://emilioeth.github.io/Run-Buddy/" target="blank"> <img src="./assets/Images/Run-Buddy-Portfolio-IMG.png" alt="Run buddys official webpage" class="project-img" id="first-project-img"> </a> 
-            </div> 
-            <div>
-                <h3 class="project-title">
-                  Run Buddy 
-                </h3>
-                <p class="project-bio">
-                    Official Site for Run Buddy
-                </p>
-              </div> 
-        </div>
-       <div class="project-structure">
-            <div class="project-image">
-                <img src="./assets/Images/Placeholder-image-portfolio.gif" alt="Run buddys main page" class="project-img">
-            </div> 
-            <div>
-                <h3 class="project-title">
-                   COMING SOON...
-                </h3>
-                <p class="project-bio">
-                    COMING SOON...
-                </p>
-            </div> 
-        </div>
-    </div>
-    </section>
-    <section id="about-me">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/Images/My project (1).png" alt="personal logo" id="logo-img">
+                </a>
+            </div>
     
-        <div id="bio-section-title">
-           <h2>ABOUT ME</h2>
-        </div>
- 
-        <div id="bio-image-n-text">
+            <ul class="nav nav-home">
 
-            <div id="bio-image">
-              <a href="https://opensea.io/assets/ethereum/0xa310425046661c523d98344f7e9d66b32195365d/46641" target="blank"> <img src="./assets/Images/unnamed.gif" alt="digital animated avatar" id="bio-img"> </a>
+                <li class="home-li">
+                    <a href="index.html" class="active"><i class="fa fa-home list-home"></i> Home</a>
+                </li>
+
+                <li>
+                    <a href="./html-pages/projects.html"><i class="fa fa-briefcase list-portfolio"></i> Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="./html-pages/services.html"><i class="fa fa-list list-services"></i> Services</a>
+                </li>
+
+                <li>
+                    <a href="./html-pages/contact.html"><i class="fa fa-comments list-contact"></i> Contact</a>
+                </li>
+
+            </ul>
+
+        </header>
+
+
+      
+        <!-- ===== Main Section ===== -->
+        <section class="home active section" id="home"> 
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="home-info padd-15">
+
+                        <h3 class="hello">
+                            Hello, my name is <span class="name">Emili0</span>
+                        </h3>
+
+                        <h3 class="my-profession">
+                        I' m a <span class="typing">web developer</span>
+                        </h3>
+
+                        <p>
+                            Im a Web Developer/Designer, Audio Engineer and a Blockchain developer. Mainly focusin on Blockchain technology and Web3.0 brands, still feel free to check my <a href="./html-pages/projects.html">Portfolio</a> out, and if theres anything I can help you with <a href="./html-pages/contact.html">Reach Out!</a> 
+                        </p>
+
+                        <a href="https://github.com/Emilioeth" class="btn" target="blank">
+                        Github
+                        </a>
+
+                    </div> 
+
+                    <div class="home-img padd-15">
+
+                        <a href="https://opensea.io/assets/ethereum/0xa310425046661c523d98344f7e9d66b32195365d/46641" target="blank"> 
+                            <img src="./assets/Images/unnamed.gif" alt="digital animated avatar"> 
+                        </a>
+
+                    </div>
+
+                </div>    
             </div>
+        </section>
 
-            <div id="bio-text">
-                <h3>
-                    EMILI0
-                </h3>
-                <p>
-                BLOCKCHAIN ENTHUSIAST. NFT DEGEN. DEV. </br>
-                I AM A 19 YO WEB DEVELOPER, MOSTLY FOCUSING </br>
-                ON CRYPTO/NFT PROJECTS FOR THE TIME BEING. </br>
-                I AM FAMILIAR WITH THE FOLLOWING LANGUAGES, <br>
-                HTML, CSS, JS, to be continued... 
-                </p>
-            </div>
-        </div>
-    </section> 
-    <section id="contact">
-        
-        <div class="section-title" id="reach-out-title">
-            <h2>
-                REACH OUT
-            </h2>
-        </div>
-        <div id="socials-structure">
-        <div id="socials"> 
+    </div>
 
-            <div id="twitter">
-                <img src="./assets/Images/download.png" alt="Twitter Logo" id="twitter-img" class="socials-img">
-
-                <a href="https://twitter.com/Emili0Eth" target="blank">
-                    <h3 id="twitter-text">@EMILI0ETH</h3>
-                </a>
-            </div>
-            <div id="instagram">
-                <img src="./assets/Images/download.jpg" alt="Instagram Logo" id="instagram-img" class="socials-img">
-
-                <a href="https://www.instagram.com/emilioeth/" target="blank">
-                    <h3 id="instagram-text">@EMILIOETH</h3>
-                </a>
-            </div>
-        </div>
-
-            <div id="mail">
-                <a href="mailto:emiliothomasking@gmail.com" target="blank">
-               <img src="./assets/Images/Screen Shot 2022-05-20 at 12.25.22 PM.png" alt="Mail Logo" id="mail-img">
-                </a>
-            </div>
-        </div>
-    </section>
-    <footer>
-
-        <h2> MADE BY EMILI0 </h2>
-
-    </footer>
 </body>
-
 </html>
