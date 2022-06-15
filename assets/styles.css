@@ -35,6 +35,40 @@ body {
     justify-content: center;
 }
 
+.section
+{
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    padding: 0 30px;
+    opacity: 1;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+.container
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
 .section-title
 {
     flex: 0 0 100%;
@@ -181,44 +215,111 @@ header .nav li a {
     font-weight: 600;
 }
 
+header .nav-toggler
+{
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    border-radius: 5px;
+    background: var(--bg-black-100);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+header .nav-toggler span
+{
+    height: 2px;
+    width: 18px;
+    background: var(--mp-yellow);
+    display: inline-block;
+    position: relative;
+}
+
+header .nav-toggler.open span
+{
+    background-color: transparent;
+}
+
+header .nav-toggler span::before
+{
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--mp-yellow);
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+
+header .nav-toggler.open span::before
+{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+header .nav-toggler span::after
+{
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--mp-yellow);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+header .nav-toggler-services span::after, header .nav-toggler-services span::before, header .nav-toggler-services span {
+    background: var(--mp--green);
+}
+
+header .nav-toggler-portfolio span::after, header .nav-toggler-portfolio span::before, header .nav-toggler-portfolio span {
+    background: var(--mp-orange);
+}
+
+header .nav-toggler-contact span::after, header .nav-toggler-contact span::before, header .nav-toggler-contact span {
+    background: var(--mp-blue);
+}
+
+header .nav-toggler.open span::after
+{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+/* 
+
+@media (max-width:1199px) {
+    header .nav-toggler
+    {
+        display: flex;
+        left: 30px;
+    }
+    header .nav-toggler.open 
+    {
+        left: 300px;
+    }
+    header
+    {
+        left: -270px;
+    }
+    header.open 
+    {
+        left: 0;
+    }
+}
+
+*/ 
+
 /*  Nav Bar Section end */
 
 
 /* home start */
-
-.section
-{
-    background: var(--bg-black-900);
-    min-height: 100vh;
-    display: block;
-    padding: 0 30px;
-    opacity: 1;
-    position: fixed;
-    left: 270px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transition: all 0.3s ease;
-}
-
-.row
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-    position: relative;
-}
-
-.container
-{
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-}
 
 .home
 {
@@ -302,6 +403,8 @@ h3.my-profession
     transform: scale(1.05);
 }
 
+/* 
+
 @media (max-width:991px)
 {
     .home .home-info
@@ -309,13 +412,9 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-    /*
-    .home .home-img
-    {
-        display: none;
-    }
-    */
 }
+
+*/ 
 
 /* home end */
 
@@ -377,6 +476,8 @@ h3.my-profession
     margin-right: 1;
 }
 
+/* 
+
 @media (max-width:1199px)
 {
     .section .container
@@ -421,6 +522,8 @@ h3.my-profession
         max-width: 100%;
     }
 }
+
+*/ 
 
 /* portfolio end */
 
@@ -482,7 +585,7 @@ h3.my-profession
 }
 .service .service-item .service-item-inner h4
 {
-    font-size: 18px;
+    font-size: 1vw;
     margin-bottom: 15px;
     color: var(--text-white-50);
     font-weight: 700;
@@ -490,32 +593,19 @@ h3.my-profession
 }
 .service .service-item .service-item-inner p
 {
-    font-size: 16px;
+    font-size: .9vw;
     color: var(--text-white-50);
     line-height: 25px;
 }
 
-@media (max-width:991px) {
-    .service .service-item
-    {
-        flex: 0 0 40%;
-        max-width: 50%;
-    }
-    .section-title-services {
-        display: none;
-    }
-    .services-all {
-        margin-top: 340px;
-    }
+#design-p-mobile span{
+    display: none;
 }
 
-@media (max-width:767px) {
-    .service .service-item
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+.section-title-services {
+    margin-left: 14px;
 }
+
 /* Service section end */
 
 /* Contact section start */
@@ -678,91 +768,149 @@ h3.my-profession
     transform: scale(1.05);
 }
 
-@media (max-width:991px)
-{
-    .contact .contact-info-item
-    {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .contact .contact-form
-    {
-        flex: 0 0 70%;
-        max-width: 70%;
-        margin-left: 90px;
-    }
-    .contact .contact-form .form-item .form-email {
-        margin-left: 10px;
-    }
-    .btn-contact {
-        margin-left: 140px;
-    }
-    .section-title-contact {
-        display: none;
-    }
-    .container-contact {
-        margin-top: 400px;
-    }
+.section-title-contact {
+    margin-left: 14px;
 }
 
+/* Contact section end */
+
+@media (max-width:1199px)
+{
+    .section .container
+    {
+        padding-top: 70px;
+    }
+    header
+    {
+        left: -270px;
+    }
+    header.open 
+    {
+        left: 0;
+    }
+    header .nav-toggler
+    {
+        display: flex;
+        left: 30px;
+    }
+    header .nav-toggler.open 
+    {
+        left: 300px;
+    }
+    .section
+    {
+        left: 0;
+    }
+    .section.open 
+    {
+        left: 270px;
+    }
+    .service .service-item .service-item-inner p
+    {
+    font-size: 1.3vw;
+    }
+    .service .service-item .service-item-inner h4
+    {
+    font-size: 1.4vw;
+    }
+}
+@media (max-width:991px)
+{
+    .contact .contact-info-item,
+    .portfolio .portfolio-item
+    {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .service .service-item
+    {
+        flex: 0 0 39%;
+        max-width: 39%;
+    }
+    #blockchain-title-mobile span {
+        display: none;
+    }
+    #design-p-mobile span{
+        display: block;
+    }
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .btn-hire {
+        font-size: 3vw;
+    }
+    .container-home {
+        position: relative;
+    }
+    .home-img-pos {
+        position: absolute;
+        bottom: 320px;
+        right: 10px;
+    }
+    .home-img img {
+        width: 325px;
+    }
+    .home-info-pos {
+        position: absolute;
+    }    
+    .home-info-pos h3 {
+        font-size: 6vw;
+    }   
+    .home-info-pos h3 span {
+        font-size: 6vw;
+    }  
+    .home-info-pos p {
+        font-size: 3.5vw;
+    }  
+    .port-heading {
+        position: absolute;
+        bottom: 40px;
+    }
+    .portfolio-item-extra {
+        display: none;
+    }
+    .proj-container {
+        position: absolute;
+        top: 200px;
+    }
+    .section-title-contact {
+        position: absolute;
+        bottom: 210px;
+    }
+    .container-contact {
+        position: absolute;
+        top: 350px;
+    }
+    .contact-title, .contact-sub-title {
+        position: relative;
+        right: 30px;
+    }
+}
 @media (max-width:767px)
 {
     .contact .contact-form .col-6,
-    .contact .contact-info-item
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 
-/* Contact section end */
+/*
 
-/* General Media Queries */
 
-@media (max-width:991px){
-    .phone-services-title, .phone-title-contact {
-        display: block;
-    }
-    .phone-services-title {
-        border-bottom: solid 2px var(--mp--green);
-        width: 50%;
-        margin-left: 150px;
-        margin-bottom: -300px;
-    }
-    #services {
-        margin-top: 220px;
-    }
-    #blockchain-title-mobile span {
+.home .home-img
+    {
         display: none;
     }
-    .phone-title-contact {
-        border-bottom: solid 2px var(--mp-blue);
-        width: 50%;
-        margin-bottom: 250px;
-        margin-left: 170px;
-    }
-    #contact {
-        margin-top: -275px;
-    }
-}
 
-@media (max-width:991px) and (min-width:700px) {
-    .container-home {
-        position: relative;
-    }
-    .home-img-pos {
-        position: absolute;
-        bottom: 335px;
-    }
-    .home-info-pos {
-        position: absolute;
-    }
-    .container-home {
-        margin-top: 50px;
-    }
     .home-img {
         margin: 10px 0px 10px 0px;
     }
-}
-
-
+.container-home {
+        margin-top: 550px;
+    }
