@@ -791,9 +791,8 @@ h3.my-profession
         right: 30px;
     }
     .row.services-all {
-        position: absolute;
-        bottom: 500px;
-        left: 80px;
+        bottom: -280px;
+        left: 60px;
     }
     .service .service-item .service-item-inner p
     {
@@ -807,8 +806,14 @@ h3.my-profession
         display: block;
         position: absolute;
         left: 330px;
-        bottom: 1700px;
+        top: 300px;
         width: 300px;
+    }
+    .phone-services-title.opened {
+        display: none;
+    }
+    .service.section {
+        position: relative;
     }
 }
 @media (max-width:767px)
@@ -822,18 +827,3 @@ h3.my-profession
         max-width: 100%;
     }
 }
-
-/*
-
-
-.home .home-img
-    {
-        display: none;
-    }
-
-    .home-img {
-        margin: 10px 0px 10px 0px;
-    }
-.container-home {
-        margin-top: 550px;
-    }

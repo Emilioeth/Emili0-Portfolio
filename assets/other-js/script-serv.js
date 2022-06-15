@@ -62,6 +62,7 @@ function updateNav(element)
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),
       aside = document.querySelector("header");
+      servMobile = document.querySelector(".phone-services-title")
       navTogglerBtn.addEventListener("click", () => 
       {
           asideSectionTogglerBtn();
@@ -69,6 +70,7 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
       function asideSectionTogglerBtn()
       {
           aside.classList.toggle("open");
+          servMobile.classList.toggle("opened")
           navTogglerBtn.classList.toggle("open");
           for(let i=0; i<totalSection; i++ )
           {
