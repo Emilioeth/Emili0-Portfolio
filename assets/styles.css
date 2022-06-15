@@ -116,15 +116,9 @@ body {
     font-size: 30px;
 }
 
-/* 
-.phone-title-contact {
-    border-bottom: solid 5px var(--mp-blue);
-}
-
 .phone-services-title {
     border-bottom: solid 5px var(--mp--green);
 }
-*/
 
 /* GENERAL END */ 
 
@@ -292,30 +286,6 @@ header .nav-toggler.open span::after
     top: 0;
 }
 
-/* 
-
-@media (max-width:1199px) {
-    header .nav-toggler
-    {
-        display: flex;
-        left: 30px;
-    }
-    header .nav-toggler.open 
-    {
-        left: 300px;
-    }
-    header
-    {
-        left: -270px;
-    }
-    header.open 
-    {
-        left: 0;
-    }
-}
-
-*/ 
-
 /*  Nav Bar Section end */
 
 
@@ -403,19 +373,6 @@ h3.my-profession
     transform: scale(1.05);
 }
 
-/* 
-
-@media (max-width:991px)
-{
-    .home .home-info
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-*/ 
-
 /* home end */
 
 /* portfolio start */
@@ -475,55 +432,6 @@ h3.my-profession
 .proj-container {
     margin-right: 1;
 }
-
-/* 
-
-@media (max-width:1199px)
-{
-    .section .container
-    {
-        padding-top: 70px;
-    }
-   
-    .section.open 
-    {
-        left: 270px;
-    }
-}
-
-@media (max-width:991px)
-{
-    .portfolio .portfolio-item
-    {
-        flex: 0 0 45%;
-        max-width: 50%;
-    }
-    .proj-row
-    {
-        margin-top: 100px;
-    }
-    .proj-row-2
-    {
-        margin-top: 30px;
-    }
-    .portfolio-item-extra {
-        display: none;
-    }
-    .proj-container .portfolio-item {
-        margin: 35px 15px;
-    }
-}
-
-@media (max-width:767px)
-{
-    .portfolio .portfolio-item
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-*/ 
 
 /* portfolio end */
 
@@ -805,13 +713,8 @@ h3.my-profession
     {
         left: 270px;
     }
-    .service .service-item .service-item-inner p
-    {
-    font-size: 1.3vw;
-    }
-    .service .service-item .service-item-inner h4
-    {
-    font-size: 1.4vw;
+    .service-item-inner {
+        height: 100%;
     }
 }
 @media (max-width:991px)
@@ -886,6 +789,26 @@ h3.my-profession
     .contact-title, .contact-sub-title {
         position: relative;
         right: 30px;
+    }
+    .row.services-all {
+        position: absolute;
+        bottom: 500px;
+        left: 80px;
+    }
+    .service .service-item .service-item-inner p
+    {
+    font-size: 24px;
+    }
+    .service .service-item .service-item-inner h4
+    {
+    font-size: 30px;
+    }
+    .phone-services-title {
+        display: block;
+        position: absolute;
+        left: 330px;
+        bottom: 1700px;
+        width: 300px;
     }
 }
 @media (max-width:767px)
