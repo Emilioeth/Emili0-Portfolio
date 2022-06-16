@@ -869,6 +869,9 @@ h3.my-profession
         width: 100%;
         margin-left: 0px;
     }
+    .row-social-contact {
+        margin-left: 65px;
+    }
 }
 
 @media (max-width:767px)
