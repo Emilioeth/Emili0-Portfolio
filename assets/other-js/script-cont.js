@@ -1,9 +1,3 @@
-
-var nameEl = getElementById("name-form")
-var subjectEl = getElementById("subject-form")
-var messageEl = getElementById("message-form")
-var emailEl = getElementById("email-form")
-
 const nav = document.querySelector(".nav"),
 navList = nav.querySelectorAll("li"),
 totalNavList = navList.length,
@@ -82,9 +76,6 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
       }
 
 
-var submitContact = function () {
-    window.alert('Message Sent! Redirecting...')
-}
 
 
 
