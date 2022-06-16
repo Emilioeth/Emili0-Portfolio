@@ -1,4 +1,8 @@
 
+var nameEl = getElementById("name-form")
+var subjectEl = getElementById("subject-form")
+var messageEl = getElementById("message-form")
+var emailEl = getElementById("email-form")
 
 const nav = document.querySelector(".nav"),
 navList = nav.querySelectorAll("li"),
@@ -76,3 +80,11 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
               allSection[i].classList.toggle("open");
           }
       }
+
+
+var submitContact = function () {
+    window.alert('Message Sent! Redirecting...')
+}
+
+
+
