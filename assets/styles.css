@@ -684,20 +684,20 @@ h3.my-profession
 
 /* Thank you section start */
 
-.thank-you-body {
-    position: relative;
-}
-
-.thank-you-section {
+.center-thankyou {
+    height: 50px;
+    left: 50%;
     position: absolute;
-    top: 420px;
-    left: 500px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
 }
 
 .thank-you-body h2 {
     font-size: 50px;
     color: var(--text-white-50);
     border-bottom:solid 3px var(--mp-blue);
+    text-align: center;
 }
 
 .thank-you-body button {
@@ -714,9 +714,9 @@ h3.my-profession
     border: none;
     transition: all 0.3s ease;
     position:absolute;
-    top: 100px;
-    left: 250px;
     width: 200px;
+    top: 100px;
+    left: 300px;
 }
 
 .thank-you-body button:hover {
@@ -726,6 +726,22 @@ h3.my-profession
 
 /* Thank you section end 
 
+ position: absolute;
+    top: 420px;
+    left: 500px;
+
+
+       top: 100px;
+    left: 250px;
+
+    .thank-you-body {
+    position: relative;
+}
+
+.thank-you-section {
+   position: absolute;
+
+}
 */
 
 
@@ -861,6 +877,12 @@ h3.my-profession
     }
     .service.section {
         position: relative;
+    }
+    .thank-you-body button {
+        font-size: 30px;
+    }
+    .center-thankyou {
+        top: 45%;
     }
 }
 @media (max-width:767px)
