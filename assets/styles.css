@@ -637,7 +637,8 @@ h3.my-profession
 }
 
 .contact .contact-form .form-item .form-email {
-    margin-left: 24px;
+    margin-left: 0px;
+    width: 100%;
 }
 
 .contact .contact-form .form-item .form-control:focus
@@ -724,25 +725,7 @@ h3.my-profession
 }
 
 
-/* Thank you section end 
-
- position: absolute;
-    top: 420px;
-    left: 500px;
-
-
-       top: 100px;
-    left: 250px;
-
-    .thank-you-body {
-    position: relative;
-}
-
-.thank-you-section {
-   position: absolute;
-
-}
-*/
+/* Thank you section end */
 
 
 @media (max-width:1199px)
@@ -841,18 +824,6 @@ h3.my-profession
         position: absolute;
         top: 200px;
     }
-    .section-title-contact {
-        position: absolute;
-        bottom: 210px;
-    }
-    .container-contact {
-        position: absolute;
-        top: 350px;
-    }
-    .contact-title, .contact-sub-title {
-        position: relative;
-        right: 30px;
-    }
     .row.services-all {
         bottom: -280px;
         left: 60px;
@@ -891,7 +862,15 @@ h3.my-profession
     .section-title-services {
         margin-top: 20px;
     }
+    .section-title-contact {
+        margin-top: 20px;
+    }
+    #email-form {
+        width: 100%;
+        margin-left: 0px;
+    }
 }
+
 @media (max-width:767px)
 {
     .contact .contact-form .col-6,
@@ -901,5 +880,12 @@ h3.my-profession
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    #name-form {
+        width: 100%;
+    }
+    #email-form {
+        width: 100%;
+        margin-left: 0px;
     }
 }
