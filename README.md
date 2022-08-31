@@ -1,5 +1,5 @@
 
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&size=30&pause=2000&color=0078D6&width=435&lines=Emili0's+Portfolio;By+Emili0)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=sans-serif&size=30&pause=2000&color=FFD700&width=435&lines=Emili0's+Portfolio;By+Emili0)
 
   ![Project Img](/assets/images/readmeIMG.png)
   
