@@ -6,7 +6,7 @@
   ## Description
   This webpage was made to serve as my official portfolio, all my current and future project wil be hosted here, as well as the best ways to contact me.
 
-  https://emili0.com
+  [Link](https://emili0.com)
 
   ![visitors](https://visitor-badge.glitch.me/badge?page_id=Emilioeth.Emili0's+Portfolio&left_color=blue&right_color=blue)
 
