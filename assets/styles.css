@@ -539,6 +539,7 @@ h3.my-profession
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3S ease;
+    height: 300px;
 }
 .service .service-item .service-item-inner:hover
 {
@@ -986,6 +987,9 @@ h3.my-profession
     .row.services-all {
         bottom: -280px;
         left: 60px;
+    }
+    .service .service-item .service-item-inner {
+        height: 360px;
     }
     .service .service-item .service-item-inner p
     {
