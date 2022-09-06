@@ -512,6 +512,29 @@ h3.my-profession
     margin-right: 1;
 }
 
+.p-wrap {
+    position: absolute;
+    z-index: 11;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+p.portfolio-compatible {
+    font-weight: 500;
+    color: white;
+}
+
+.portfolio .portfolio-item-inner:hover .p-wrap {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* portfolio end */
 
 /* Service section start */
