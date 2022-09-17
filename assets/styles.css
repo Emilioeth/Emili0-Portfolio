@@ -377,6 +377,10 @@ h3.my-profession
 
 /* portfolio start */
 
+.proj-row {
+    left: 27px;
+}
+
 .section .container
 {
     padding-top: 60px;
@@ -1061,6 +1065,9 @@ p.portfolio-compatible {
     header .nav li a {
         font-size: 25px;
         margin: 33px 0px;
+    }
+    .proj-row {
+        left: 0px;
     }
 }
 
