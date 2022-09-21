@@ -1515,6 +1515,15 @@ p.portfolio-compatible {
     .contact .section-title h2 {
         font-size: 34px;
     }
+    .section .container-index {
+        padding-top: 110px;
+    }
+    .row.proj-row-2.row-title {
+        bottom: 60px;
+    }
+    .proj-row {
+        bottom: 93px;
+    }
 }
 
 @media (max-width: 420px){
