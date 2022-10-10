@@ -132,7 +132,7 @@ infoDiv.addEventListener('scroll', function() {
         target3.style.transform = 'translate3d(0px, -'+rate3+'px, 0px)'
         target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
     }
-    else if ($(window).width() <= 500 ) {
+    else if (window.innerWidth <= 500 ) {
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
 
@@ -271,7 +271,7 @@ infoDiv.addEventListener('scroll', function() {
 
 $(".projects-info").bind("scroll", function() {
 
-    if ($(window).width() <= 500 ) {
+    if (window.innerWidth <= 500 ) {
         if($(".projects-info").scrollTop() >= heightPixelsMed ) {
             portfolioSec.classList.add('mobilenav')
         }
@@ -280,7 +280,7 @@ $(".projects-info").bind("scroll", function() {
         }
     }
 
-    if (($(window).width() <= 800 ) & ($(window).width() > 500)) {
+    if ((window.innerWidth <= 800 ) & (window.innerWidth > 500)) {
         if($(".projects-info").scrollTop() >= heightPixelsMed ) {
             portfolioSec.classList.add('mediumnav')
         }
@@ -289,7 +289,7 @@ $(".projects-info").bind("scroll", function() {
         }
     }
 
-    if ($(window).width() > 800 ) {
+    if (window.innerWidth > 800 ) {
         if($(".projects-info").scrollTop() >= heightPixels) {
             portfolioSec.classList.add('bodynav')
         }
