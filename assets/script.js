@@ -20,16 +20,16 @@ const toProjectsBtn = document.querySelector('.to-projects')
 const aboutPort = document.querySelector('.about-port')
 const aboutMeSection = document.querySelector('.aboutme-section')
 
-let heightPixels = $(window).height() * 0.80 - 30;
-let heightPixelsMed = $(window).height() * 0.65 - 30;
-let windowH = $(window).height()
-let windowW = $(window).width()
+let heightPixels = window.innerHeight * 0.80 - 30;
+let heightPixelsMed = window.innerHeight * 0.65 - 30;
+let windowH = window.innerHeight
+let windowW = window.innerWidth
 
 window.onresize = () => {
-    heightPixels = $(window).height() * 0.80 - 30;
-    heightPixelsMed = $(window).height() * 0.65 - 30;
-    windowH = $(window).height()
-    WindowW = $(window).width()
+    heightPixels = window.innerHeight * 0.80 - 30;
+    heightPixelsMed = window.innerHeight * 0.65 - 30;
+    windowH = window.innerHeight
+    WindowW = window.innerWidth
 };
 
 
@@ -100,7 +100,7 @@ infoDiv.addEventListener('scroll', function() {
     const target3 = document.querySelector(".info-img3");
     const target4 = document.querySelector(".info-mobile-imgs");
 
-    if (($(window).width() > 500 ) && ($(window).height() > 750 ) && ($(window).width() < 1000 ) && ($(window).height() > 1200 )) {
+    if ((window.innerWidth > 500 ) && (window.innerHeight > 750 ) && (window.innerWidth < 1000 ) && (window.innerHeight > 1200 )) {
 
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
@@ -165,7 +165,7 @@ infoDiv.addEventListener('scroll', function() {
         target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
     }
 
-    if (($(window).width() > 500 ) && ($(window).height() > 750 )) {
+    if ((window.innerWidth  > 500 ) && (window.innerHeight  > 750 )) {
 
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
@@ -200,7 +200,7 @@ infoDiv.addEventListener('scroll', function() {
         target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
     }
 
-    if (($(window).width() >= 1000 ) && ($(window).height() >= 1200 )) {
+    if ((window.innerWidth  >= 1000 ) && (window.innerHeight  >= 1200 )) {
 
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
@@ -233,7 +233,7 @@ infoDiv.addEventListener('scroll', function() {
         target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
     } 
 
-    if (($(window).height() <= 750 ) && ($(window).width() > 390)) {
+    if ((window.innerHeight  <= 750 ) && (window.innerWidth > 390)) {
 
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;

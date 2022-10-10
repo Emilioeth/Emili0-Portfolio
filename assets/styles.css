@@ -394,7 +394,6 @@ h3.my-profession
     z-index: 10;
     font-family: 'Poppins', sans-serif;
     transition: opacity .4s ease-out;
-    overflow: hidden;
 }
 .to-projects-wrap {
     position: absolute;
