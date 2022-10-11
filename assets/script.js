@@ -51,7 +51,6 @@ window.onload = () => {
         document.querySelector('.project-title-section').style.top = ''+heightH2+'px'
         document.querySelector('.project-banner').style.height = ''+height6+'px'
         infoDiv.style.height = ''+heightE+'px'
-        document.querySelector('.service-section').style.minHeight = ''+heightE+'px'
         document.querySelector('.contact-section-wrap').style.height = ''+heightE+'px'
     }
 }
@@ -75,7 +74,6 @@ window.onresize = () => {
         document.querySelector('.project-banner').style.height = ''+height6+'px'
         infoDiv.style.height = ''+heightE+'px'
         document.querySelector('.info-body3').style.height = ''+height3+'px'
-        document.querySelector('.service-section').style.minHeight = ''+heightE+'px'
         document.querySelector('.contact-section-wrap').style.height = ''+heightE+'px'
     }
 };
