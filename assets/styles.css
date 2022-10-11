@@ -674,7 +674,7 @@ span.portfolio-about {
 .info-imgs {
     margin-top: 46vh;
     width: 70vw;
-    margin-bottom: -10vh;
+    margin-bottom: -100px;
 }
 .info-imgs .info-img1, .info-imgs .info-img2, .info-img3  {
     width: 100%;
@@ -1564,7 +1564,7 @@ color: black;
 @media (max-width:1000px)
 {
     .info-imgs {
-        margin-top: 40vh;
+        margin-top: 350px;
     }
 }
 
@@ -1700,6 +1700,9 @@ color: black;
     }
     .info-imgs2 {
         padding-top: 30vh;
+    }
+    .info-imgs {
+        margin-top: 390px;
     }
 }
 
@@ -2029,7 +2032,7 @@ color: black;
         font-size: 5em;
     }
     .info-imgs2 {
-        padding-top: 27vh;
+        padding-top: 160px;
     }
     .to-projects {
         font-size: 18px;
@@ -2079,9 +2082,6 @@ color: black;
     .info-body3 ul {
         gap: 0px;
     }
-    .info-imgs2 {
-        padding-top: 34vh;
-    }
     .proj-exit {
         left: 48%;
         top: 23px;
@@ -2093,7 +2093,7 @@ color: black;
         margin-top: -7vh;
     }
     .info-body3 {
-        height: 5vh;
+        height: 60px;
     }
 }
 
@@ -2179,6 +2179,9 @@ color: black;
     .to-projects {
         font-size: 16px;
     }
+    .info-imgs2 {
+        padding-top: 280px;
+    }
 }
 
 @media (max-width: 420px){
@@ -2221,11 +2224,8 @@ color: black;
     .row.services-all {
         left: 6px;
     }
-    .info-imgs2 {
-        padding-top: 35vh;
-    }
     .info-imgs {
-        margin-top: 45vh;
+        margin-top: 360px;
     }
     .info-body2 {
         margin-top: -10vh;
@@ -2237,7 +2237,7 @@ color: black;
     margin-top: -17vh;
     }
     .info-imgs2 {
-        padding-top: 43vh;
+        padding-top: 280px;
     }
     .info-body h3 {
         top: -35vw;
@@ -2246,7 +2246,7 @@ color: black;
         top: -25vw;
     }
     .info-imgs {
-        margin-top: 41vh;
+        margin-top: 290px;
     }
     span.portfolio-about {
         font-size: 16px;
@@ -2277,10 +2277,10 @@ color: black;
 
 @media (min-height: 800px) and (max-width: 375px) {
     .info-imgs {
-        margin-top: 31vh;
+        margin-top: 260px;
     }
     .info-imgs2 {
-        padding-top: 30vh;
+        padding-top: 250px;
     }
 }
 
@@ -2295,31 +2295,6 @@ color: black;
         font-size: 3.3em;
     }
 }
-
-@media (max-width: 360px){
-    .info-imgs {
-        margin-top: 35vh;
-    }
-    .info-imgs2 {
-        padding-top: 31vh;
-    }
-}
-
-@media (max-width: 360px) and (max-height: 800px) and (min-height: 700px) {
-    .info-imgs2 {
-        padding-top: 34vh;
-    }
-}
-
-@media (max-width: 360px) and (max-height: 650px){
-    .info-imgs {
-        margin-top: 43vh;
-    }
-    .info-imgs2 {
-        padding-top: 43vh;
-    }
-}
-
 @media (max-width: 310px){
     .project-h, .banner-h {
         font-size: 3em;
@@ -2388,10 +2363,10 @@ color: black;
         font-size: 2vh;
     }
     .info-imgs2 {
-        padding-top: 43vh;
+        padding-top: 260px;
     }
     .info-imgs {
-        margin-top: 41vh;
+        margin-top: 250px;
     }
 }
 

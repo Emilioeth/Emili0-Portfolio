@@ -32,6 +32,53 @@ window.onresize = () => {
     WindowW = window.innerWidth
 };
 
+window.onload = () => {
+
+    let heightE = window.innerHeight * 1
+    let heightH = window.innerHeight * 0.5
+    let heightH2 = window.innerHeight * 0.25
+    let height3 = window.innerHeight * 0.30
+    let height6 = window.innerHeight * 0.65
+    let heightS = window.innerHeight * 0.05
+
+    if(window.innerWidth <= 600) {
+        document.querySelector('.section').style.minHeight = ''+heightE+'px'
+        document.querySelector('.nav').style.height = ''+heightE+'px'
+        document.querySelector('.home').style.minHeight = ''+heightE+'px'
+        portSection.style.height = ''+heightE+'px'
+        document.querySelector('.projects-section').style.height = ''+heightE+'px'
+        document.querySelector('.nav a').style.top = ''+heightH+'px'
+        document.querySelector('.project-title-section').style.top = ''+heightH2+'px'
+        document.querySelector('.project-banner').style.height = ''+height6+'px'
+        infoDiv.style.height = ''+heightE+'px'
+        document.querySelector('.service-section').style.minHeight = ''+heightE+'px'
+        document.querySelector('.contact-section-wrap').style.height = ''+heightE+'px'
+    }
+}
+
+window.onresize = () => {
+
+    let heightE = window.innerHeight * 1
+    let heightH = window.innerHeight * 0.5
+    let heightH2 = window.innerHeight * 0.25
+    let height3 = window.innerHeight * 0.30
+    let height6 = window.innerHeight * 0.65
+
+    if(window.innerWidth <= 600) {
+        document.querySelector('.section').style.minHeight = ''+heightE+'px'
+        document.querySelector('.nav').style.height = ''+heightE+'px'
+        document.querySelector('.home').style.minHeight = ''+heightE+'px'
+        portSection.style.height = ''+heightE+'px'
+        document.querySelector('.projects-section').style.height = ''+heightE+'px'
+        document.querySelector('.nav a').style.top = ''+heightH+'px'
+        document.querySelector('.project-title-section').style.top = ''+heightH2+'px'
+        document.querySelector('.project-banner').style.height = ''+height6+'px'
+        infoDiv.style.height = ''+heightE+'px'
+        document.querySelector('.info-body3').style.height = ''+height3+'px'
+        document.querySelector('.service-section').style.minHeight = ''+heightE+'px'
+        document.querySelector('.contact-section-wrap').style.height = ''+heightE+'px'
+    }
+};
 
 $('.project-h').arctext({
     radius: 1200
@@ -182,8 +229,8 @@ infoDiv.addEventListener('scroll', function() {
 
         console.log(rate2)
 
-        if (rate2 > 230){
-            rate2 = 230
+        if (rate2 > 184){
+            rate2 = 184
         }
 
         if (rate3 > 230){
