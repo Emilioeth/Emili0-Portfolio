@@ -2075,6 +2075,10 @@ color: black;
     .service-section .service-item .service-item-inner {
         height: 350px;
     }
+    .to-projects i {
+        opacity: 1;
+        animation: move 1.1s infinite ease-in-out;
+    }
 }
 
 @media (max-width:500px){
