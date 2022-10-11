@@ -1931,6 +1931,24 @@ color: black;
     .section .proj-container {
         padding-top: 5px;
     }
+    .info-body2 {
+        margin-top: -60px;
+    }
+    .info-body3 {
+        height: 100px;
+    }
+    .info-imgs {
+        margin-top: 25px;
+        margin-bottom: 90px;
+    }
+    .info-mobile-imgs {
+        padding-top: 46px;
+        margin-bottom: -18px;
+        padding-bottom: 80px;
+    }
+    .info-imgs2 {
+        padding-top: 50px;
+    }
 }
 
 @media (max-height:670px){
@@ -2030,9 +2048,6 @@ color: black;
 @media (max-width:555px){
     .project-h, .banner-h {
         font-size: 5em;
-    }
-    .info-imgs2 {
-        padding-top: 160px;
     }
     .to-projects {
         font-size: 18px;
