@@ -2090,10 +2090,25 @@ color: black;
         top: 23px;
     }
     .info-body2 {
-        margin-top: -7vh;
+        margin-top: -60px;
     }
     .info-body3 {
-        height: 60px;
+        height: 75px;
+    }
+    .info-imgs {
+        margin-top: 95px;
+        margin-bottom: 90px;
+    }
+    .info-about {
+        top: -50px;
+    }
+    .info-mobile-imgs {
+        padding-top: 46px;
+        margin-bottom: -18px;
+        padding-bottom: 80px;
+    }
+    .info-imgs2 {
+        padding-top: 50px;
     }
 }
 
@@ -2179,9 +2194,6 @@ color: black;
     .to-projects {
         font-size: 16px;
     }
-    .info-imgs2 {
-        padding-top: 280px;
-    }
 }
 
 @media (max-width: 420px){
@@ -2224,30 +2236,9 @@ color: black;
     .row.services-all {
         left: 6px;
     }
-    .info-imgs {
-        margin-top: 360px;
-    }
-    .info-body2 {
-        margin-top: -10vh;
-    }
 }
 
 @media (max-width: 375px){
-    .info-body2 {
-    margin-top: -17vh;
-    }
-    .info-imgs2 {
-        padding-top: 280px;
-    }
-    .info-body h3 {
-        top: -35vw;
-    }
-    .info-body p {
-        top: -25vw;
-    }
-    .info-imgs {
-        margin-top: 290px;
-    }
     span.portfolio-about {
         font-size: 16px;
     }
@@ -2276,12 +2267,7 @@ color: black;
 }
 
 @media (min-height: 800px) and (max-width: 375px) {
-    .info-imgs {
-        margin-top: 260px;
-    }
-    .info-imgs2 {
-        padding-top: 250px;
-    }
+
 }
 
 @media (max-width: 365px){
@@ -2356,17 +2342,9 @@ color: black;
     }
     .info-body h3 {
         font-size: 2.1vh;
-        top: -56vw;
     }
     .info-body p {
-        top: -46vw;
         font-size: 2vh;
-    }
-    .info-imgs2 {
-        padding-top: 260px;
-    }
-    .info-imgs {
-        margin-top: 250px;
     }
 }
 

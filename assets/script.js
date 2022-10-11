@@ -174,45 +174,24 @@ infoDiv.addEventListener('scroll', function() {
             rate4 = 250
         }
 
+        console.log('hey1')
+
         target.style.transform = 'translate3d(0px, -'+rate+'px, 0px)'
         target2.style.transform = 'translate3d(0px, -'+rate2+'px, 0px)'
         target3.style.transform = 'translate3d(0px, -'+rate3+'px, 0px)'
         target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
     }
     else if (window.innerWidth <= 500 ) {
-        var scrolled = $(".projects-info").scrollTop();
-        var rate = scrolled * 0.5;
-
-        var scrolled2 = scrolled - heightPixels + 70;
-        var scrolled3 = scrolled2 + windowH * .30 + 450;
-        var rate2 = scrolled3 * 0.45;
-
-        var scrolled4 = scrolled3 - windowW * .83333
-        scrolled4V = scrolled4 - 250;
-        var rate3 = scrolled4V * 0.5;
-
-        var scrolled5 = scrolled4V - windowW * .46875
-        var rate4 = scrolled5 * 0.5;
-
-        if (rate2 > 220){
-            rate2 = 220
-        }
-
-        if (rate3 > 220){
-            rate3 = 220
-        }
-
-        if (rate4 > 304){
-            rate4 = 304
-        }
-
-        target.style.transform = 'translate3d(0px, -'+rate+'px, 0px)'
-        target2.style.transform = 'translate3d(0px, -'+rate2+'px, 0px)'
-        target3.style.transform = 'translate3d(0px, -'+rate3+'px, 0px)'
-        target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
+        console.log('hey2')
+        target.style.transform = 'none'
+        target2.style.transform = 'none'
+        target3.style.transform = 'none'
+        target4.style.transform = 'none'
     }
 
     if ((window.innerWidth  > 500 ) && (window.innerHeight  > 750 )) {
+
+        console.log('hey3')
 
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
@@ -249,6 +228,9 @@ infoDiv.addEventListener('scroll', function() {
 
     if ((window.innerWidth  >= 1000 ) && (window.innerHeight  >= 1200 )) {
 
+
+        console.log('hey4')
+
         var scrolled = $(".projects-info").scrollTop();
         var rate = scrolled * 0.5;
 
@@ -282,36 +264,11 @@ infoDiv.addEventListener('scroll', function() {
 
     if ((window.innerHeight  <= 750 ) && (window.innerWidth > 390)) {
 
-        var scrolled = $(".projects-info").scrollTop();
-        var rate = scrolled * 0.5;
-
-        var scrolled2 = scrolled - heightPixels + 70;
-        var scrolled3 = scrolled2 + windowH * .30 + 200;
-        var rate2 = scrolled3 * 0.45;
-
-        var scrolled4 = scrolled3 - windowW * .83333
-        var scrolled4V = scrolled4 - 200
-        var rate3 = scrolled4V * 0.5;
-
-        var scrolled5 = scrolled4V - windowW * .46875
-        var rate4 = scrolled5 * 0.5;
-
-        if (rate2 > 220){
-            rate2 = 220
-        }
-
-        if (rate3 > 107){
-            rate3 = 107
-        }
-
-        if (rate4 > 193){
-            rate4 = 193
-        }
-
-        target.style.transform = 'translate3d(0px, -'+rate+'px, 0px)'
-        target2.style.transform = 'translate3d(0px, -'+rate2+'px, 0px)'
-        target3.style.transform = 'translate3d(0px, -'+rate3+'px, 0px)'
-        target4.style.transform = 'translate3d(0px, -'+rate4+'px, 0px)'
+        console.log('hey5')
+        target.style.transform = 'none'
+        target2.style.transform = 'none'
+        target3.style.transform = 'none'
+        target4.style.transform = 'none'
     }
 
 })
