@@ -1,7 +1,7 @@
 
   ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=sans-serif&size=30&pause=2000&color=FFD700&width=435&lines=Emili0's+Portfolio;By+Emili0)
 
-  ![Project Img](/assets/Images/readmeIMG.png)
+  ![Project Img](https://i.imgur.com/JrG4Jg2.png)
   
   ## Description
   This webpage was made to serve as my official portfolio, all my current and future project wil be hosted here, as well as the best ways to contact me.
