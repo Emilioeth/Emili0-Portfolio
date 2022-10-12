@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Emili0-Portfolio/static/css/main.1c521a59.css",
+    "main.js": "/Emili0-Portfolio/static/js/main.409c92ba.js",
+    "static/js/787.fb4f95d5.chunk.js": "/Emili0-Portfolio/static/js/787.fb4f95d5.chunk.js",
+    "static/media/Novozco-img1.png": "/Emili0-Portfolio/static/media/Novozco-img1.0e3a94bc32bf4d80e4d2.png",
+    "static/media/PizzaHunt-banner.png": "/Emili0-Portfolio/static/media/PizzaHunt-banner.1ff229c65bdd94283d7b.png",
+    "static/media/RunBuddy-banner.png": "/Emili0-Portfolio/static/media/RunBuddy-banner.da8504d50f12d6d9e9d9.png",
+    "static/media/RunBuddy-img3.png": "/Emili0-Portfolio/static/media/RunBuddy-img3.a14559546e45a6db314f.png",
+    "static/media/RunBuddy-img1.png": "/Emili0-Portfolio/static/media/RunBuddy-img1.01dab8a2d808b3ab0c67.png",
+    "static/media/PizzaHunt-img1.png": "/Emili0-Portfolio/static/media/PizzaHunt-img1.4f5272b3b23fc8a27b7e.png",
+    "static/media/Novozco-banner.png": "/Emili0-Portfolio/static/media/Novozco-banner.5e7ee25b6c7ad69eb1b3.png",
+    "static/media/Novozco-img3.png": "/Emili0-Portfolio/static/media/Novozco-img3.ff3071621860aebfbc05.png",
+    "static/media/PizzaHunt-img2.png": "/Emili0-Portfolio/static/media/PizzaHunt-img2.e63e077ea5e01a984f68.png",
+    "static/media/PizzaHunt-img3.png": "/Emili0-Portfolio/static/media/PizzaHunt-img3.fad0d0c7b502e7fe21b1.png",
+    "static/media/RunBuddy-img2.png": "/Emili0-Portfolio/static/media/RunBuddy-img2.54ebd27926d2991fec40.png",
+    "static/media/Novozco-img2.png": "/Emili0-Portfolio/static/media/Novozco-img2.978de211653a7530e785.png",
+    "static/media/Novozco-mobile-img1.png": "/Emili0-Portfolio/static/media/Novozco-mobile-img1.8ca1ce2251ff0f26daa2.png",
+    "static/media/RunBuddy-mobile-img1.png": "/Emili0-Portfolio/static/media/RunBuddy-mobile-img1.9d7941b1efb462ef07da.png",
+    "static/media/Novozco-mobile-img2.png": "/Emili0-Portfolio/static/media/Novozco-mobile-img2.3b72cf93b1d29eb5d223.png",
+    "static/media/PizzaHunt-mobile-img2.png": "/Emili0-Portfolio/static/media/PizzaHunt-mobile-img2.41a7385c9a93f65dfb65.png",
+    "static/media/RunBuddy-mobile-img3.png": "/Emili0-Portfolio/static/media/RunBuddy-mobile-img3.58cff2a7cfc3c919e52d.png",
+    "static/media/PizzaHunt-mobile-img3.png": "/Emili0-Portfolio/static/media/PizzaHunt-mobile-img3.213ecf1c9bf13cdf6af9.png",
+    "static/media/PizzaHunt-mobile-img1.png": "/Emili0-Portfolio/static/media/PizzaHunt-mobile-img1.febfc8b594faf8536665.png",
+    "static/media/Novozco-mobile-img3.png": "/Emili0-Portfolio/static/media/Novozco-mobile-img3.555f7208919569ded708.png",
+    "static/media/Logo-design.png": "/Emili0-Portfolio/static/media/Logo-design.4c3cb9785193d4491d94.png",
+    "static/media/RunBuddy-mobile-img2.png": "/Emili0-Portfolio/static/media/RunBuddy-mobile-img2.2badb2a50ea517af0245.png",
+    "static/media/unnamed.gif": "/Emili0-Portfolio/static/media/unnamed.b6269fb030e079bd700f.gif",
+    "static/media/Emilio_Thomas_Resume.pdf": "/Emili0-Portfolio/static/media/Emilio_Thomas_Resume.6999e951d0c7bef177dd.pdf",
+    "index.html": "/Emili0-Portfolio/index.html",
+    "main.1c521a59.css.map": "/Emili0-Portfolio/static/css/main.1c521a59.css.map",
+    "main.409c92ba.js.map": "/Emili0-Portfolio/static/js/main.409c92ba.js.map",
+    "787.fb4f95d5.chunk.js.map": "/Emili0-Portfolio/static/js/787.fb4f95d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c521a59.css",
+    "static/js/main.409c92ba.js"
+  ]
+}
