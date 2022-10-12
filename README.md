@@ -8,8 +8,6 @@
 
   [Link](https://emili0.com)
 
-  ![visitors](https://visitor-badge.glitch.me/badge?page_id=Emilioeth.Emili0's+Portfolio&left_color=blue&right_color=blue)
-
   ## Table of contents
   - [Top](#)
   - [Project Description](#Description)
