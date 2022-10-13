@@ -969,4 +969,5 @@ window.onload = () => {
         link2.classList.toggle("fade");
         link1.classList.toggle("fade");
     });
+
 };       
