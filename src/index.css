@@ -701,7 +701,7 @@ span.portfolio-about {
     margin: 20px 0px;
 }
 .info-body2 {
-    background-color: #174FCA;
+    background-color: #5E696C;
     position: relative;
     height: 100%;
 }
@@ -725,7 +725,7 @@ span.portfolio-about {
     width: 30%;
 }
 .info-body3 {
-    background-color: #174FCA;
+    background-color: #5E696C;
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -756,7 +756,7 @@ span.portfolio-about {
     position: absolute;
     inset: 30px;
     box-shadow: 0 0 0 20px white, 
-    0 0 0 30px #174FCA,
+    0 0 0 30px #5E696C,
     0 0 0 32px white;
     transition: 0.5s;
 }
@@ -767,26 +767,26 @@ span.portfolio-about {
     content: '';
     position: absolute;
     inset: 0;
-    background: #174FCA;
+    background: #5E696C;
     transform: rotate(45deg);
 }
 
 .projects-info2 .info-body2, .projects-info2 .info-body3, .projects-info2 .info-body3 ul li::after{
-    background: #024e76;
+    background: #174FCA;
 }
 
 .projects-info2 .info-body3 ul li::before {
     box-shadow: 0 0 0 20px white, 
-    0 0 0 30px #024e76,
+    0 0 0 30px #174FCA,
     0 0 0 32px white;
 }
 
 .projects-info3 .info-body2, .projects-info3 .info-body3, .projects-info3 .info-body3 ul li::after{
-    background: #313638;
+    background: #024e76;
 }
 .projects-info3 .info-body3 ul li::before {
     box-shadow: 0 0 0 20px white, 
-    0 0 0 30px #313638,
+    0 0 0 30px #024e76,
     0 0 0 32px white;
 }
 
@@ -2082,6 +2082,9 @@ color: black;
     }
     .info-imgs2 {
         padding-top: 50px;
+    }
+    .project-banner {
+        height: 52vh;
     }
 }
 

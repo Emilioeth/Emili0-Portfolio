@@ -18,9 +18,9 @@ $(window).on('load', function() {
 
 // images setup
 const images = [
+    "https://i.imgur.com/0e4GhuL.png",
     "https://i.imgur.com/9Im4nJI.png",
     "https://i.imgur.com/E6pdhvX.png",
-    "https://i.imgur.com/WgsF0LO.png",
     ];
 
 window.onload = () => {
@@ -116,12 +116,14 @@ window.onload = () => {
 
     let heightPixels = window.innerHeight * 0.80 - 30;
     let heightPixelsMed = window.innerHeight * 0.65 - 30;
+    let heightPixelsMob = window.innerHeight * 0.52 - 30;
     let windowH = window.innerHeight
     let windowW = window.innerWidth
 
     window.onresize = () => {
         heightPixels = window.innerHeight * 0.80 - 30;
         heightPixelsMed = window.innerHeight * 0.65 - 30;
+        heightPixelsMob = window.innerHeight * 0.52 - 30;
         windowH = window.innerHeight
         windowW = window.innerWidth
     };
@@ -131,7 +133,6 @@ window.onload = () => {
         let heightE = window.innerHeight * 1
         let heightH = window.innerHeight * 0.5
         let heightH2 = window.innerHeight * 0.25
-        let height6 = window.innerHeight * 0.65
 
         if(window.innerWidth <= 600) {
             document.querySelector('.section').style.minHeight = ''+heightE+'px'
@@ -141,7 +142,6 @@ window.onload = () => {
             document.querySelector('.projects-section').style.height = ''+heightE+'px'
             document.querySelector('.nav a').style.top = ''+heightH+'px'
             document.querySelector('.project-title-section').style.top = ''+heightH2+'px'
-            document.querySelector('.project-banner').style.height = ''+height6+'px'
             infoDiv.style.height = ''+heightE+'px'
         }
     }
@@ -154,7 +154,6 @@ window.onload = () => {
         let heightH = window.innerHeight * 0.5
         let heightH2 = window.innerHeight * 0.25
         let height3 = window.innerHeight * 0.30
-        let height6 = window.innerHeight * 0.65
 
         if(window.innerWidth <= 600) {
             document.querySelector('.section').style.minHeight = ''+heightE+'px'
@@ -164,7 +163,6 @@ window.onload = () => {
             document.querySelector('.projects-section').style.height = ''+heightE+'px'
             document.querySelector('.nav a').style.top = ''+heightH+'px'
             document.querySelector('.project-title-section').style.top = ''+heightH2+'px'
-            document.querySelector('.project-banner').style.height = ''+height6+'px'
             infoDiv.style.height = ''+heightE+'px'
             document.querySelector('.info-body3').style.height = ''+height3+'px'
         }
@@ -685,7 +683,7 @@ window.onload = () => {
     $(".projects-info").bind("scroll", function() {
 
         if (window.innerWidth <= 500 ) {
-            if($(".projects-info").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mobilenav')
             }
             else{
@@ -694,7 +692,7 @@ window.onload = () => {
         }
 
         if ((window.innerWidth <= 800 ) & (window.innerWidth > 500)) {
-            if($(".projects-info").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mediumnav')
             }
             else{
@@ -715,7 +713,7 @@ window.onload = () => {
     $(".projects-info2").bind("scroll", function() {
 
         if (window.innerWidth <= 500 ) {
-            if($(".projects-info2").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info2").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mobilenav')
             }
             else{
@@ -724,7 +722,7 @@ window.onload = () => {
         }
 
         if ((window.innerWidth <= 800 ) & (window.innerWidth > 500)) {
-            if($(".projects-info2").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info2").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mediumnav')
             }
             else{
@@ -745,7 +743,7 @@ window.onload = () => {
     $(".projects-info3").bind("scroll", function() {
 
         if (window.innerWidth <= 500 ) {
-            if($(".projects-info3").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info3").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mobilenav')
             }
             else{
@@ -754,7 +752,7 @@ window.onload = () => {
         }
 
         if ((window.innerWidth <= 800 ) & (window.innerWidth > 500)) {
-            if($(".projects-info3").scrollTop() >= heightPixelsMed ) {
+            if($(".projects-info3").scrollTop() >= heightPixelsMob ) {
                 portfolioSec.classList.add('mediumnav')
             }
             else{

@@ -9,11 +9,11 @@ import RunBuddyimgM3 from "../../assets/Images/RunBuddy-mobile-img3.png";
 
 function RunBuddy () {
     return(
-                <div className="projects-info2 inactive"> 
+                <div className="projects-info3 inactive"> 
         
                     <div className="project-banner info-sections">
 
-                        <div className="banner-title banner-title2">
+                        <div className="banner-title banner-title3">
                             <h1 className="banner-h">
                                     RUN BUDDY
                             </h1>
@@ -40,7 +40,7 @@ function RunBuddy () {
                                 </p>
                             </div>
 
-                            <div className="info-imgs info2-imgs">
+                            <div className="info-imgs info3-imgs">
                                 <img className="info-img1" src={RunBuddyimg1} alt="RunBuddy img 1"/>
 
                                 <img className="info-img2" src={RunBuddyimg2} alt="RunBuddy img 2"/>
@@ -52,10 +52,10 @@ function RunBuddy () {
                         <div className="info-body2">
 
                             <div className="info-imgs2">
-                                <img className="info-img3 info2-img3" src={RunBuddyimg3} alt="RunBuddy img 3"/>
+                                <img className="info-img3 info3-img3" src={RunBuddyimg3} alt="RunBuddy img 3"/>
                             </div>
 
-                            <div className="info-mobile-imgs info2-mobile-imgs">
+                            <div className="info-mobile-imgs info3-mobile-imgs">
                                 <img className="mobile-img1" src={RunBuddyimgM1}  alt="RunBuddy mobile 1"/>
                                 <img className="mobile-img2" src={RunBuddyimgM2}  alt="RunBuddy mobile 2"/>
                                 <img className="mobile-img3" src={RunBuddyimgM3} alt="RunBuddy mobile 3"/>

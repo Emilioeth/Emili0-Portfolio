@@ -9,11 +9,11 @@ import NovozcoimgM3 from "../../assets/Images/Novozco-mobile-img3.png";
 
 function Novozco () {
     return(
-                <div className="projects-info inactive"> 
+                <div className="projects-info2 inactive"> 
         
                     <div className="project-banner info-sections">
 
-                        <div className="banner-title">
+                        <div className="banner-title banner-title2">
                             <h1 className="banner-h">
                                     NOVOZCO
                             </h1>
@@ -41,7 +41,7 @@ function Novozco () {
                                 </p>
                             </div>
 
-                            <div className="info-imgs">
+                            <div className="info-imgs info2-imgs">
                                 <img className="info-img1" src={Novozcoimg1} alt="Novozco img 1"/>
 
                                 <img className="info-img2" src={Novozcoimg2} alt="Novozco img 2"/>
@@ -53,10 +53,10 @@ function Novozco () {
                         <div className="info-body2">
 
                             <div className="info-imgs2">
-                                <img className="info-img3" src={Novozcoimg3} alt="Novozco img 3"/>
+                                <img className="info-img3 info2-img3" src={Novozcoimg3} alt="Novozco img 3"/>
                             </div>
 
-                            <div className="info-mobile-imgs">
+                            <div className="info-mobile-imgs info2-mobile-imgs">
                                 <img className="mobile-img1" src={NovozcoimgM1}  alt="Novozco mobile 1"/>
                                 <img className="mobile-img2" src={NovozcoimgM2}  alt="Novozco mobile 2"/>
                                 <img className="mobile-img3" src={NovozcoimgM3} alt="Novozco mobile 3"/>

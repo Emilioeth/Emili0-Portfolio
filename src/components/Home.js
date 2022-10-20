@@ -76,7 +76,7 @@ function Home() {
                         <div className="project-title inactive indo0">
                             <div className="proj-title-wrap proj1">
                                 <h1 className="project-h">
-                                    NOVOZCO
+                                    Z-THEORY
                                 </h1>
                                 <p className="project-p">
                                     2022
@@ -86,7 +86,7 @@ function Home() {
                         <div className="project-title indo1">
                             <div className="proj-title-wrap proj2">
                                 <h1 className="project-h">
-                                    RUN BUDDY
+                                    NOVOZCO
                                 </h1>
                                 <p className="project-p">
                                     2022
@@ -96,7 +96,7 @@ function Home() {
                         <div className="project-title indo2">
                             <div className="proj-title-wrap proj3">
                                 <h1 className="project-h">
-                                    PIZZA HUNT
+                                    RUN BUDDY
                                 </h1>
                                 <p className="project-p">
                                     2022
