@@ -1531,6 +1531,18 @@ color: black;
     }
 }
 
+@media (min-height: 1200px) and (min-width: 1400px){
+    .info-body p {
+        left: 43vw;
+        width: 40vw;
+    }
+    .info-imgs, .info-imgs2, .info-mobile-imgs {
+        width: 74vw;
+    }
+    .info-body h3 {
+        left: 21vw;
+    }
+}
 @media (max-width:1000px)
 {
     .info-imgs {
