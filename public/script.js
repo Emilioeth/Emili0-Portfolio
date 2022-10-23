@@ -115,6 +115,7 @@ window.onload = () => {
     const aboutMeSection = document.querySelector('.aboutme-section')
 
     let heightPixels = window.innerHeight * 0.80 - 30;
+    let heightPixelsBg = window.innerHeight * 0.90 - 30;
     let heightPixelsMed = window.innerHeight * 0.65 - 30;
     let heightPixelsMob = window.innerHeight * 0.52 - 30;
     let windowH = window.innerHeight
@@ -700,7 +701,7 @@ window.onload = () => {
             }
         }
 
-        if (window.innerWidth > 800 ) {
+        if ((window.innerWidth > 800 ) & (window.innerWidth < 2000)){
             if($(".projects-info").scrollTop() >= heightPixels) {
                 portfolioSec.classList.add('bodynav')
             }
@@ -708,6 +709,16 @@ window.onload = () => {
                 portfolioSec.classList.remove('bodynav')
             }
         }
+
+        if (window.innerWidth >= 2000 ) {
+            if($(".projects-info").scrollTop() >= heightPixelsBg) {
+                portfolioSec.classList.add('bodynav')
+            }
+            else{
+                portfolioSec.classList.remove('bodynav')
+            }
+        }
+
     })
 
     $(".projects-info2").bind("scroll", function() {
@@ -730,8 +741,17 @@ window.onload = () => {
             }
         }
 
-        if (window.innerWidth > 800 ) {
+        if ((window.innerWidth > 800 ) & (window.innerWidth < 2000)){
             if($(".projects-info2").scrollTop() >= heightPixels) {
+                portfolioSec.classList.add('bodynav')
+            }
+            else{
+                portfolioSec.classList.remove('bodynav')
+            }
+        }
+
+        if (window.innerWidth >= 2000 ) {
+            if($(".projects-info2").scrollTop() >= heightPixelsBg) {
                 portfolioSec.classList.add('bodynav')
             }
             else{
@@ -760,8 +780,17 @@ window.onload = () => {
             }
         }
 
-        if (window.innerWidth > 800 ) {
+        if ((window.innerWidth > 800 ) & (window.innerWidth < 2000)){
             if($(".projects-info3").scrollTop() >= heightPixels) {
+                portfolioSec.classList.add('bodynav')
+            }
+            else{
+                portfolioSec.classList.remove('bodynav')
+            }
+        }
+
+        if (window.innerWidth >= 2000 ) {
+            if($(".projects-info3").scrollTop() >= heightPixelsBg) {
                 portfolioSec.classList.add('bodynav')
             }
             else{

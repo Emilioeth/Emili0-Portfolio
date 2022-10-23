@@ -1492,6 +1492,11 @@ color: black;
         height: 60vh;
     }
 }
+@media (min-width:2000px) {
+    .project-banner {
+        height: 90vh;
+    }
+}
 @media (min-height:1200px) and (min-width:1000px) and (max-height:1500px){
     .info-imgs2 {
         padding-top: 41vh;
